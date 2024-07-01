@@ -28,6 +28,7 @@ module.exports = {
           chunks: 'all',
         },
         default: false,
+        defaultVendors: false,
       },
     },
   },

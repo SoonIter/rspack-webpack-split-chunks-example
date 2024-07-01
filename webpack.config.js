@@ -1,7 +1,7 @@
 module.exports = {
   mode: 'development',
   entry: {
-    index: './src/index.js'
+    index: './src/index.js',
   },
   optimization: {
     minimize: true,
@@ -25,6 +25,7 @@ module.exports = {
           chunks: 'all',
         },
         default: false,
+        defaultVendors: false,
       },
     },
   },
